@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "UiKitExample"
 include(":app")
- 
+include(":uikit")
+include(":uikit-sample")

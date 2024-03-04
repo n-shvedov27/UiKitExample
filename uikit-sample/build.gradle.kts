@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.shvedov.uikitexample"
+    namespace = "com.shvedov.uikit_sample"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.shvedov.uikitexample"
+        applicationId = "com.shvedov.uikit_sample"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -35,7 +35,6 @@ android {
 dependencies {
 
     implementation(project(":uikit"))
-
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
